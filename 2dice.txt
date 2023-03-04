@@ -1,0 +1,11 @@
+#!/bin/bash
+
+number=$((RANDOM%6+1)) #(1-6)
+echo "Dice-1" $number;
+
+number1=$((RANDOM%6+1))
+echo "Dice-2" $number1;
+
+Avg=$(($number + $number1));
+
+echo  "Total" == $Avg;
