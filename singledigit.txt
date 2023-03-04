@@ -1,0 +1,12 @@
+#!/bin/bash
+
+PRESENT=0;
+isPresent=$((RANDOM%10));
+
+if [ $isPresent -lt 10 ]
+then
+	echo "$isPresent";
+else
+	echo "****";
+fi
+
